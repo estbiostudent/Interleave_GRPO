@@ -14,12 +14,19 @@ Because these values are not explicitly written down anywhere, we call them late
 ## Hypotheses
 
 Hypothesis 1: The ability to interleave the execution and output of two, or more, different tasks is a measurement of a model’s ability to maintain latent states.
+
 Hypothesis 2: An architecture has a limit of both depth (length of text, steps in a calculation, etc) and breadth (number of simultaneous worlds/processes) that it can track.
+
 Hypothesis 2a: This ability can be trained.
+
 Hypothesis 2b: The architectures limit can be mapped
+
 Hypothesis 2b1: The length of texts (or sequence of calculations) that the model can recite successfully for a given training regimen is described by the logistic function
+
 Hypothesis 2b2: the rate of transition of success for a given depth is an indicator of approaching the boundary: shallower curves indicate training is still possible, steeper curves indicate approach of architectural capacity.
+
 Hypothesis 3: Training on interleaving can lead to formation of independent thinking structures.
+
 Hypothesis 4: The wording of the prompts during training affects the nature of the structure: “processes” vs “pointers” vs “worlds”
 
 
